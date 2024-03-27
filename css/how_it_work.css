@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* How It Works Section Styles */
+#how-it-works {
+    padding: 50px 0;
+}
+
+.steps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.step {
+    flex: 0 0 calc(50% - 20px); /* Two steps per row */
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.step:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.step-icon img {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.step h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.step p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 768px) {
+    .step {
+        flex: 0 0 100%; /* Single step per row on smaller screens */
+    }
+}

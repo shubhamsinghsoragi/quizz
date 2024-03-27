@@ -1,0 +1,103 @@
+/* Reset default browser styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0; /* Light gray background */
+  color: #333; /* Dark gray text */
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%; /* Set the width of the content */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px; /* Add some space around the content */
+}
+
+header {
+  background-color: #fff; /* White background for header */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  padding: 20px 0; /* Add space above and below header */
+}
+
+.logo {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points */
+}
+
+nav ul li {
+  display: inline-block; /* Display navigation items horizontally */
+  margin-left: 20px; /* Add space between navigation items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove underline from links */
+  color: #333; /* Dark gray text color */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+  color: #007bff; /* Change text color on hover */
+}
+
+.quote-slider {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero {
+  background-color: #007bff; /* Blue background for hero section */
+  color: #fff; /* White text color */
+  padding: 100px 0; /* Add space above and below hero content */
+  text-align: center;
+}
+
+.hero.user-logged-in a {
+  display: none; /* Hide the signup button if the user is logged in */
+}
+
+.hero h1 {
+  font-size: 36px; /* Large font size for heading */
+  margin-bottom: 20px; /* Add space below heading */
+}
+
+.hero p {
+  font-size: 18px; /* Medium font size for paragraph */
+  margin-bottom: 20px; /* Add space below paragraph */
+}
+
+.hero a {
+  display: inline-block; /* Display button as inline block */
+  background-color: #fff; /* White background for button */
+  color: #007bff; /* Blue text color for button */
+  padding: 10px 20px; /* Add padding to button */
+  text-decoration: none; /* Remove underline from button */
+  border-radius: 5px; /* Add rounded corners to button */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition on hover */
+}
+
+.hero a:hover {
+  background-color: #007bff; /* Change background color on hover */
+  color: #fff; /* Change text color on hover */
+}
+
+footer {
+  background-color: #333; /* Dark gray background for footer */
+  color: #fff; /* White text color for footer */
+  text-align: center;
+  padding: 20px 0; /* Add space above and below footer content */
+}
+
+footer p {
+  font-size: 14px; /* Small font size for footer text */
+}

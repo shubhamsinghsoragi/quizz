@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Quiz Website Name</title>
+    <link rel="stylesheet" href="/css/front_page.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Your Quiz Website</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/how_it_work.html">How It Works</a></li>
+                    <li><a href="/html/features.html">Features</a></li>
+                    <li><a href="/html/contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="quote-slider">
+                <h1>All IS WELL</h1>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Test Your Knowledge, Expand Your Horizons</h1>
+            <p>Engage in exciting quizzes covering diverse topics, challenge yourself, and learn new things!</p>
+            <p>From science to pop culture, history to technology, we've got quizzes that cater to every interest.</p>
+            <a href="/html/login_signup.html">Sign Up Now and Start Exploring</a>
+        </div>
+    </section>
+    
+    <section class="online-users">
+        <div class="container">
+            <p>Online Users: <?php echo isset($_SESSION['online_users']) ? $_SESSION['online_users'] : '1'; ?></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Quiz Website. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
